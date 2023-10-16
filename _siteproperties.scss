@@ -1,0 +1,35 @@
+@import "variables";
+
+/* :root {
+    --padding-center: calc(50% - 570px);
+    --padding-thebrand: calc(50% - 800px);
+} */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.site {
+    display: flex;
+    flex-direction: column;
+    font-family: "Lato", sans-serif;
+    // Отключил так как не видны менюшки в продукте
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.center {
+    padding-left: calc(50% - $widthSite/2);
+    padding-right: calc(50% - $widthSite/2);
+}
+
+summary {
+    display: block;
+  }
+    summary::-webkit-details-marker {
+    display: none;
+  }

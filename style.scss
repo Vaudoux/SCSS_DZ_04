@@ -1,0 +1,204 @@
+//Импорт стилей
+@import "mixins";
+@import "siteproperties";
+@import "variables";
+@import "index";
+@import "product";
+@import "catalog";
+@import "cart";
+@import "registration";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+
+
+
+/* ---------------------------------------------------
+-------------------------tablet-----------------------
+--------------------------------------------------- */
+
+@media (max-width: 846px) {
+.header {
+    background: $footerColor;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+.header__left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 41px;
+    margin-left: 32px;
+}
+.header__logo {
+    margin-right: 41px;
+}
+    .header__right {
+    margin-right: 41px;
+}
+    /* ---------------theBrand-------------------------- */
+.thebrand__title {
+    display: flex;
+    padding-left: 64px;
+    align-items: center;
+}
+.thebrand__item {
+    display: flex;
+    /* ---------------accesories-------------------------- */
+}
+.accesories{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+    /* ---------------footer-------------------------- */
+.featurefo{
+    flex-direction: column;
+    padding-left: 204px;
+    padding-right: 204px;
+    padding-bottom: 35px;
+} 
+.featurefo__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+.frame{
+    flex-direction: column;
+    background: url(../img/frame/subscribe.jpg) center no-repeat;
+    background-size: auto 100%;
+    background-position: 25% 0;
+}
+.frame__item{
+    padding-top: 64px;
+    padding-bottom: 100px;
+}
+}
+
+/* ---------------------------------------------------
+-------------------------mobile-----------------------
+--------------------------------------------------- */
+
+/* @media (max-width: 370px) {
+.header{
+    flex-wrap: nowrap;
+}
+.header__right{
+    flex-direction: row-reverse;
+    margin-right: 16px;
+}
+.header__left {
+    margin-left: 16px;
+}
+.header__secondImage {
+    visibility: hidden;
+      /* flex-wrap: wrap; */
+
+
+/*------------------------------------------*/
+/* .thebrand{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.thebrand__image {
+    display: none;
+    width: 50%;
+}
+.thebrand__title{
+    padding-left: 0;  
+    height: 363px;
+}
+.thebrand__subtitle{
+    font-size: 38px;
+}
+.thebrand__subtext{
+    font-size: 20px;
+}
+.thebrand__rectangle {
+    margin-left: 0;
+} */
+/*-----------------------------*/
+/* .accesories {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 16px;
+}
+}
+.featured__grid{
+    gap: 16px;
+    margin: 0 8px;
+}
+.accesories__bigitem {
+    position: relative;
+    min-height: 180px;
+    grid-column: 1 / -1;
+    padding: 0 8px;
+} */
+/*------------footer-----------*/
+/* .featurefo{
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 35px;
+}
+.frame__text {
+    color: $fontMineColor;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.frame__item {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 126px;
+    padding-top: 97px;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 55px;
+}
+.frame__sutitle {
+    color: $fontMineColor;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153.2%;
+    margin-bottom: 22px;
+}
+.frame__inputbox {
+    display: flex;
+    width: 245px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 40px 0 0 40px;
+}
+.copyright {
+    background-color: $footerColor;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding-bottom: 9px;
+} */
+
+
